@@ -73,10 +73,10 @@ const rules: KarabinerRules[] = [
     o: {
       1: app("1Password"),
       g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Zed"),
+      c: app("Calendar"),
+      v: app("Visual Studio Code"),
       d: app("Discord"),
-      s: app("Slack"),
+      s: app("Spotify"),
       e: app("Superhuman"),
       n: app("Notion"),
       t: app("Terminal"),
@@ -84,17 +84,18 @@ const rules: KarabinerRules[] = [
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
       ),
+      k: app("Kindle"),
       z: app("zoom.us"),
       // "M"arkdown (Reflect.app)
       m: app("Reflect"),
-      r: app("Reflect"),
-      f: app("Finder"),
+      r: app("RStudio"),
+      f: app("Amphetamine"),
       // "i"Message
       i: app("Texts"),
-      p: app("Spotify"),
+      p: app("Portal"),
       a: app("iA Presenter"),
       // "W"hatsApp has been replaced by Texts
-      w: open("Texts"),
+      w: app("Warp"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       ),
