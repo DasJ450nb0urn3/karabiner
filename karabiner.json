@@ -945,7 +945,7 @@
                                 ],
                                 "description": "Window: Previous Tab",
                                 "from": {
-                                    "key_code": "v",
+                                    "key_code": "c",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [
@@ -966,7 +966,7 @@
                                 ],
                                 "description": "Window: Next Tab",
                                 "from": {
-                                    "key_code": "c",
+                                    "key_code": "v",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [

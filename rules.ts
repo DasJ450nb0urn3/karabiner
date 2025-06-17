@@ -139,7 +139,7 @@ const rules: KarabinerRules[] = [
       i: window("top-left-quarter"),
       l: window("right-half"),
       spacebar: window("maximize"),
-      v: {
+      c: {
         description: "Window: Previous Tab",
         to: [
           {
@@ -148,7 +148,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      c: {
+      v: {
         description: "Window: Next Tab",
         to: [
           {
