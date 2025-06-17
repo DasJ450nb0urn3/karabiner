@@ -895,12 +895,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: top-left-quarter",
+                                "description": "Window: top-right-quarter",
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/top-left-quarter" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/top-right-quarter" }],
                                 "type": "basic"
                             },
                             {

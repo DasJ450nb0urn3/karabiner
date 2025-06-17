@@ -136,7 +136,7 @@ const rules: KarabinerRules[] = [
       k: window("bottom-right-quarter"),
       j: window("bottom-left-quarter"),
       u: window("top-left-quarter"),
-      i: window("top-left-quarter"),
+      i: window("top-right-quarter"),
       l: window("right-half"),
       spacebar: window("maximize"),
       c: {
