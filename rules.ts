@@ -127,18 +127,19 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      e: window("left-half"),
-      r: window("right-half"),
-      d: window("bottom-half"),
-      f: window("top-half"),
+      e: window("bottom-half"),
+      r: window("top-half"),
+      d: window("left-half"),
+      f: window("right-half"),
       y: window("previous-display"),
       o: window("next-display"),
       k: window("bottom-right-quarter"),
       j: window("bottom-left-quarter"),
-      h: window("left-half"),
+      u: window("top-left-quarter"),
+      i: window("top-left-quarter"),
       l: window("right-half"),
       spacebar: window("maximize"),
-      u: {
+      v: {
         description: "Window: Previous Tab",
         to: [
           {
@@ -147,7 +148,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      i: {
+      c: {
         description: "Window: Next Tab",
         to: [
           {
@@ -156,7 +157,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      n: {
+      h: {
         description: "Window: Next Window",
         to: [
           {
@@ -165,7 +166,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      b: {
+      g: {
         description: "Window: Back",
         to: [
           {
@@ -175,7 +176,7 @@ const rules: KarabinerRules[] = [
         ],
       },
       // Note: No literal connection. Both f and n are already taken.
-      m: {
+      t: {
         description: "Window: Forward",
         to: [
           {
