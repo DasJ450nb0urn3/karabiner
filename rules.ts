@@ -118,7 +118,7 @@ const rules: KarabinerRules[] = [
 
     // w = "Window"
     w: {
-      semicolon: {
+      m: {
         description: "Window: Hide",
         to: [
           {
@@ -175,7 +175,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      // Note: No literal connection. Both f and n are already taken.
+      // This moves you forward in a browser or in finder if you've gone back one
       t: {
         description: "Window: Forward",
         to: [

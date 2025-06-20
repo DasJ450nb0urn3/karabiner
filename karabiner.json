@@ -732,7 +732,7 @@
                                 ],
                                 "description": "Window: Hide",
                                 "from": {
-                                    "key_code": "semicolon",
+                                    "key_code": "m",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [
