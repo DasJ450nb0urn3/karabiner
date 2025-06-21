@@ -131,8 +131,8 @@ const rules: KarabinerRules[] = [
       r: window("top-half"),
       d: window("left-half"),
       f: window("right-half"),
-      y: window("previous-display"),
-      o: window("next-display"),
+      t: window("previous-display"),
+      y: window("next-display"),
       k: window("bottom-right-quarter"),
       j: window("bottom-left-quarter"),
       u: window("top-left-quarter"),
@@ -166,17 +166,8 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      g: {
-        description: "Window: Back",
-        to: [
-          {
-            key_code: "open_bracket",
-            modifiers: ["right_command"],
-          },
-        ],
-      },
       // This moves you forward in a browser or in finder if you've gone back one
-      t: {
+      g: {
         description: "Window: Forward",
         to: [
           {

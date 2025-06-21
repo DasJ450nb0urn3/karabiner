@@ -1093,7 +1093,7 @@
                 "description": "Window: previous-display",
                 "type": "basic",
                 "from": {
-                  "key_code": "t",
+                  "key_code": "y",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1117,7 +1117,7 @@
                 "description": "Window: next-display",
                 "type": "basic",
                 "from": {
-                  "key_code": "y",
+                  "key_code": "o",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -1359,6 +1359,33 @@
                 ]
               },
               {
+                "description": "Window: Back",
+                "to": [
+                  {
+                    "key_code": "open_bracket",
+                    "modifiers": [
+                      "right_command"
+                    ]
+                  }
+                ],
+                "type": "basic",
+                "from": {
+                  "key_code": "g",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_w",
+                    "value": 1
+                  }
+                ]
+              },
+              {
                 "description": "Window: Forward",
                 "to": [
                   {
@@ -1370,7 +1397,7 @@
                 ],
                 "type": "basic",
                 "from": {
-                  "key_code": "g",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": [
                       "any"
