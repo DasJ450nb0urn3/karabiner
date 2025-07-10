@@ -751,12 +751,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: bottom-two-thirds",
+                                "description": "Window: first-third",
                                 "from": {
                                     "key_code": "e",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/bottom-two-thirds" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/first-third" }],
                                 "type": "basic"
                             },
                             {
@@ -767,12 +767,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: top-two-thirds",
+                                "description": "Window: last-third",
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/top-two-thirds" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/last-third" }],
                                 "type": "basic"
                             },
                             {
