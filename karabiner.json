@@ -847,12 +847,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: bottom-right-quarter",
+                                "description": "Window: right-half",
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/bottom-right-quarter" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/right-half" }],
                                 "type": "basic"
                             },
                             {
@@ -863,12 +863,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: bottom-left-quarter",
+                                "description": "Window: left-half",
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/bottom-left-quarter" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/left-half" }],
                                 "type": "basic"
                             },
                             {
