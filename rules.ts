@@ -84,7 +84,7 @@ const rules: KarabinerRules[] = [
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
       ),
-      k: app("Kindle"),
+      k: app("Amazon Kindle"),
       z: app("zoom.us"),
       // "M"arkdown (Reflect.app)
       m: app("Reflect"),
