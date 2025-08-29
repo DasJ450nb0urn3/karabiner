@@ -783,12 +783,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: first-two-thirds",
+                                "description": "Window: left-half",
                                 "from": {
                                     "key_code": "d",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/first-two-thirds" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/left-half" }],
                                 "type": "basic"
                             },
                             {
@@ -799,12 +799,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: last-two-thirds",
+                                "description": "Window: right-half",
                                 "from": {
                                     "key_code": "f",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/last-two-thirds" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/right-half" }],
                                 "type": "basic"
                             },
                             {
@@ -847,12 +847,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: right-half",
+                                "description": "Window: last-two-thirds",
                                 "from": {
                                     "key_code": "k",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/right-half" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/last-two-thirds" }],
                                 "type": "basic"
                             },
                             {
@@ -863,12 +863,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Window: left-half",
+                                "description": "Window: first-two-thirds",
                                 "from": {
                                     "key_code": "j",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/left-half" }],
+                                "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/first-two-thirds" }],
                                 "type": "basic"
                             },
                             {
