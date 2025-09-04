@@ -531,22 +531,6 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Reflect.app'",
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'Reflect.app'" }],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "hyper_sublayer_o",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
                                 "description": "Open -a 'RStudio.app'",
                                 "from": {
                                     "key_code": "r",
@@ -565,7 +549,7 @@
                                 ],
                                 "description": "Open -a 'Amphetamine.app'",
                                 "from": {
-                                    "key_code": "f",
+                                    "key_code": "a",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Amphetamine.app'" }],
@@ -601,22 +585,6 @@
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "shell_command": "open -a 'Portal.app'" }],
-                                "type": "basic"
-                            },
-                            {
-                                "conditions": [
-                                    {
-                                        "name": "hyper_sublayer_o",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
-                                "description": "Open -a 'iA Presenter.app'",
-                                "from": {
-                                    "key_code": "a",
-                                    "modifiers": { "optional": ["any"] }
-                                },
-                                "to": [{ "shell_command": "open -a 'iA Presenter.app'" }],
                                 "type": "basic"
                             },
                             {

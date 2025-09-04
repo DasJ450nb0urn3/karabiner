@@ -86,15 +86,11 @@ const rules: KarabinerRules[] = [
       ),
       k: app("Amazon Kindle"),
       z: app("zoom.us"),
-      // "M"arkdown (Reflect.app)
-      m: app("Reflect"),
       r: app("RStudio"),
-      f: app("Amphetamine"),
+      a: app("Amphetamine"),
       // "i"Message
       i: app("Texts"),
       p: app("Portal"),
-      a: app("iA Presenter"),
-      // "W"hatsApp has been replaced by Texts
       w: app("Warp"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
