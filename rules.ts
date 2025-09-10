@@ -251,7 +251,7 @@ const rules: KarabinerRules[] = [
     },
   }),
   {
-    description: "Change the Backspace to Spacebar when Minecraft is focused",
+    description: "Change Backspace to Spacebar when Minecraft is focused",
     manipulators: [
       {
         type: "basic",
