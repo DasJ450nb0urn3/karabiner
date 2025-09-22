@@ -76,7 +76,7 @@ const rules: KarabinerRules[] = [
       r: app("RStudio"),
       a: app("Amphetamine"),
       // "i"Message
-      i: app("Texts"),
+      m: app("Messages"),
       p: app("Portal"),
       w: app("Warp"),
       l: open(

@@ -360,12 +360,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Texts.app'",
+                                "description": "Open -a 'Messages.app'",
                                 "from": {
-                                    "key_code": "i",
+                                    "key_code": "m",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -a 'Texts.app'" }],
+                                "to": [{ "shell_command": "open -a 'Messages.app'" }],
                                 "type": "basic"
                             },
                             {
