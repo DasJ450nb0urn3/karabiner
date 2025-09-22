@@ -77,6 +77,7 @@ const rules: KarabinerRules[] = [
       a: app("Amphetamine"),
       // "i"Message
       m: app("Messages"),
+      i: app("iPhone Mirroring"),
       p: app("Portal"),
       w: app("Warp"),
       l: open(
