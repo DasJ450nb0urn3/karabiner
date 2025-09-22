@@ -328,12 +328,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'RStudio.app'",
+                                "description": "Open -a 'Reminders.app'",
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open -a 'RStudio.app'" }],
+                                "to": [{ "shell_command": "open -a 'Reminders.app'" }],
                                 "type": "basic"
                             },
                             {

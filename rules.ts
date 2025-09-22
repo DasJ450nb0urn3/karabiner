@@ -73,7 +73,7 @@ const rules: KarabinerRules[] = [
       ),
       k: app("Amazon Kindle"),
       z: app("zoom.us"),
-      r: app("RStudio"),
+      r: app("Reminders"),
       a: app("Amphetamine"),
       // "i"Message
       m: app("Messages"),
