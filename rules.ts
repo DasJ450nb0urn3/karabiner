@@ -66,7 +66,7 @@ const rules: KarabinerRules[] = [
       d: app("Discord"),
       s: app("Spotify"),
       n: app("Notion"),
-      t: app("Terminal"),
+      t: app("Warp"),
       // Open todo list managed via *H*ypersonic
       h: open(
         "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
@@ -79,7 +79,7 @@ const rules: KarabinerRules[] = [
       m: app("Messages"),
       i: app("iPhone Mirroring"),
       p: app("Portal"),
-      w: app("Warp"),
+      w: app("Windows App"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       ),
