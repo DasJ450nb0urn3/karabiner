@@ -111,7 +111,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      c: window("first-third"),
+      h: window("first-third"),
       v: window("last-third"),
       d: window("left-half"),
       f: window("right-half"),
@@ -141,7 +141,7 @@ const rules: KarabinerRules[] = [
           },
         ],
       },
-      h: {
+      c: {
         description: "Window: Next Window",
         to: [
           {
