@@ -524,7 +524,7 @@
                                 ],
                                 "description": "Window: first-third",
                                 "from": {
-                                    "key_code": "e",
+                                    "key_code": "c",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/first-third" }],
@@ -540,7 +540,7 @@
                                 ],
                                 "description": "Window: last-third",
                                 "from": {
-                                    "key_code": "r",
+                                    "key_code": "v",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [{ "shell_command": "open -g raycast://extensions/raycast/window-management/last-third" }],
@@ -716,7 +716,7 @@
                                 ],
                                 "description": "Window: Previous Tab",
                                 "from": {
-                                    "key_code": "c",
+                                    "key_code": "e",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [
@@ -737,7 +737,7 @@
                                 ],
                                 "description": "Window: Next Tab",
                                 "from": {
-                                    "key_code": "v",
+                                    "key_code": "r",
                                     "modifiers": { "optional": ["any"] }
                                 },
                                 "to": [
